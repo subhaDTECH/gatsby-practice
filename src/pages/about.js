@@ -33,6 +33,6 @@ const AboutPage = () => (
   </Layout>
 );
 
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="About Page" />
 
 export default AboutPage;

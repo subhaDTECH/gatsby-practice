@@ -36,6 +36,6 @@ const PartnerPage = () => (
       </Layout>
 );
 
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="Partner Page" />
 
 export default PartnerPage;

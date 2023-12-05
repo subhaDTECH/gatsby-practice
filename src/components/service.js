@@ -14,8 +14,7 @@ const ServicePageCom = () => (
           <p>Create a homepage using Gatsby and WordPress. This starter demonstrates how to use WordPress to build a
             homepage and can be customized to match your own visual branding</p>
         </div>
-
-        <div className={box}>
+      <div className={box}>
           <h4>Website Hosting </h4>
           <p>Create a homepage using Gatsby and WordPress. This starter demonstrates how to use WordPress to build a
             homepage and can be customized to match your own visual branding</p>
