@@ -1,19 +1,37 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
+import {
+  ContactContainer, contactTitle, contactPara, fromContainer,
+  inputBox, contactBtn
+} from "../components/contact.module.css";
 const ContactPage = () => (
   <Layout>
-    <h1>Hi from contact  page</h1>
-    <p>Welcome to contact Page</p>
-     <p>Answering questions for fellow Gatsby users on Discord or GitHub Discussions are valuable contributions.
-     You can also help out users on issues and Pull Requests to contribute or fix their issues.</p>
-     <img src="https://plus.unsplash.com/premium_photo-1680985551009-05107cd2752c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGhvbmV8ZW58MHx8MHx8fDA%3D" />
-</Layout>
+    <div className={ContactContainer}>
+      <h3 className={contactTitle}>Contact Us</h3>
+      <p className={contactPara}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et ipsum dolor sit amet, consectetur adipiscing elit, se .</p>
+
+      <div className={fromContainer}>
+        <div className={inputBox}>
+          <input type="text" placeholder="Enter Your Name"></input>
+        </div>
+        <div className={inputBox}>
+          <input type="email" placeholder="Enter Your Email"></input>
+        </div>
+        <div className={inputBox}>
+          <input type="text" placeholder="Enter Your Phone number"></input>
+        </div>
+        <div className={inputBox}>
+          <button className={contactBtn}>submit</button>
+        </div>
+      </div>
+    </div>
+
+  </Layout>
 )
 
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="contact Page" />
 
 export default ContactPage

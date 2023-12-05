@@ -1,3 +1,4 @@
+
 .list {
   display: grid;
   margin: 0;
@@ -51,4 +52,84 @@
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
+}
+
+
+.mainConatiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #663399; */
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.imgcontainer{
+  width: 60%;
+  height: 80%;
+  border-radius: 30px ;
+  margin: 30px;
+  
+}
+.heroImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px ;
+}
+.mainTextBox{
+  margin: 20px;
+  margin-top: 70px;
+  display: grid;
+  align-items: center;
+}
+.MyBtn{
+  width: 150px;
+  padding: 20px 30px;
+  text-align: center;
+  color: aliceblue;
+  background-color: #004ca3;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.MyBtn:hover{
+  width: 150px;
+  padding: 20px 30px;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(2, 49, 81);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.Title{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+
+
+@media (max-width:900px) {
+
+  .mainConatiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    /* background-color: #663399; */
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+
 }

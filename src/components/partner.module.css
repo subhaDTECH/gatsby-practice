@@ -1,0 +1,61 @@
+.PartnerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.partnerImg{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.box{
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.PartnerTitle{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px 10px;
+}
+.PartnerBtn{
+    
+        width: 150px;
+        padding: 10px 20px;
+        text-align: center;
+        color: #fff;
+        background-color: rgb(2, 49, 81);
+        cursor: pointer;
+        border: none;
+        outline: none;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 10px;
+     
+    
+}
+
+.PartnerBtn:hover{
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(28, 138, 210);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+}
+

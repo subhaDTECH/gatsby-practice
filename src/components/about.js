@@ -11,8 +11,8 @@ import {
   aboutTitle,
   aboutBtn
 } from "../components/about.module.css"
-const AboutPage = () => (
-  <Layout>
+const AboutPageCom = () => (
+  <>
     <div className={aboutContainer}>
       <div className={ImgContainer}>
         <img className={aboutimg} src="https://gatsbywordpresshomepage.gatsbyjs.io/static/6384ea1ceedc8de79cbbd1d38cb19cb4/11959/Developer-Laptop.webp" />
@@ -30,9 +30,9 @@ const AboutPage = () => (
         </button>
       </div>
     </div>
-  </Layout>
+  </>
 );
 
 export const Head = () => <Seo title="About" />
 
-export default AboutPage;
+export default AboutPageCom;

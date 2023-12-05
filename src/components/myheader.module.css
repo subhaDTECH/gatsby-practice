@@ -1,0 +1,64 @@
+.myStyle{
+
+    color: white;
+    width: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    margin-left: auto;
+}
+
+.linkstyle{
+
+    font-size:18px;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    margin: 20px 10px;
+    margin-left: 10px;
+    padding:10px ;
+    font-size:18px ;
+
+}
+
+.linkstyle:hover{
+    color: rgb(3, 3, 122);
+  
+ }
+.titleStyle{
+    font-size: 20px;
+    padding: 10px;
+}
+.myHeader{
+
+    display: flex;
+    background-color:#004ca3 ;
+    color:white;
+    width: 100%;
+    
+  }
+  
+  .HeadNav{
+     width: 30%;
+     background-color:#004ca3;
+     color: white;
+     text-align: center;
+  }
+
+
+  @media (max-width:750px)
+  {
+    .myHeader{
+
+        display: flex;
+        background-color:#004ca3 ;
+        color:white;
+        width: 100%;
+        
+      }
+    
+    .HeadNav{
+       display: none;
+     }
+  }

@@ -25,17 +25,11 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-        }}
-      >
+      <div>
         <main>{children}</main>
-        <footer style={{backgroundColor:"black",color:"white",padding:"20px"}}>
+        {/* <footer style={{backgroundColor:"black",color:"white",margintop:"auto", padding:"20px", bottom:"0px",left:"0px"}}>
           This is my footer 
-        </footer>
+        </footer> */}
       </div>
     </>
   )
